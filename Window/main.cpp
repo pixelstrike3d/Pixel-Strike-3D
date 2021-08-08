@@ -7,12 +7,12 @@
 using namespace std;
 
 int main() {
-  int loaded = 0
+  int loaded = 0;
       
   if (majorVersion == 1 and minorVersion == 6 and database == "http://pixelstrike3daws.com")
-        loaded = 1
+        loaded = 1;
       else
-        loaded = 0
+        loaded = 0;
           
   if (loaded == 1)
           cout << "Sucessfully Loaded Game" << endl;
