@@ -9,7 +9,7 @@
 # All asset files belong to Pixel Strike 3D
 
 
-# API Example
+# API Examples
 Fetch Leaderboards
 ```python
 from apis import PS3D
@@ -18,4 +18,24 @@ from apis import PS3D
 player = PS3D(playFabId="...", token="...", device_id="...")
 
 print(player.get_leaderboards())
+```
+
+Search Clans
+```python
+from apis import PS3D
+
+# Fill in your information accordingly:
+player = PS3D(playFabId="...", token="...", device_id="...")
+
+print(player.search_clans("Example"))
+```
+
+Get Clan by ID
+```python
+from apis import PS3D
+
+# Fill in your information accordingly:
+player = PS3D(playFabId="...", token="...", device_id="...")
+
+print(player.get_clan(1))
 ```
