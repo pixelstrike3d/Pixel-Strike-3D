@@ -9,6 +9,11 @@
 # All asset files belong to Pixel Strike 3D
 
 
+# Archived Source
+
+It is in this repository, just look and you'll find that it's in C++
+
+
 # API Examples
 Fetch Leaderboards
 ```python
