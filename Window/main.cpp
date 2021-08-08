@@ -1,6 +1,6 @@
 //#include <windows.h>
-#include "version.h"
-#include "database.h"
+#include "../Variables/version.h"
+#include "../Variables/database.h"
 
 #include <iostream>
 #include <string>
