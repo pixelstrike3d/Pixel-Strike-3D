@@ -84,3 +84,5 @@ player = PS3D(playFabId="...", token="...", device_id="...")
 
 print(player.get_currency())
 ```
+
+[![Gameplay](pixel.jpg)](#)
