@@ -1,7 +1,34 @@
-#include <windows.h>
+//#include <windows.h>
 #include "version.h"
 #include "database.h"
 
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+  int loaded = 0
+      
+  if (majorVersion == 1 and minorVersion == 6 and database == "http://pixelstrike3daws.com")
+        loaded = 1
+      else
+        loaded = 0
+          
+  if (loaded == 1)
+          cout << "Sucessfully Loaded Game" << endl;
+      else
+          cout << "Error Loading Game" << endl;
+  
+  
+    
+  return 0;
+}
+
+
+//soon
+
+
+/*
 const char g_szClassName[] = "myWindowClass";
 
 // Step 4: the Window Procedure
@@ -76,3 +103,4 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
     }
     return Msg.wParam;
 }
+*/
