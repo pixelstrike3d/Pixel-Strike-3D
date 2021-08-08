@@ -8,8 +8,7 @@ using namespace std;
 
 int main() {
   int loaded = 1;
-      
-          
+  
   if (loaded == 1)
           cout << "Sucessfully Loaded Game" << endl;
       else
