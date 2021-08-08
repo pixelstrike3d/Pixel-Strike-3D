@@ -1,4 +1,4 @@
-[![Pixel Gun 3D](title.png)](#)
+[![Pixel Strike 3D](Pixel Strike 3D Logo.png)](#)
 
 [![Version: 17.6.0](info_version.png)](#)
 [![Platform: Android](info_platform.png)](#)
