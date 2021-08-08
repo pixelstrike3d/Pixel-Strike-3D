@@ -39,3 +39,43 @@ player = PS3D(playFabId="...", token="...", device_id="...")
 
 print(player.get_clan(1))
 ```
+
+Get Profile by ID
+```python
+from apis import PS3D
+
+# Fill in your information accordingly:
+player = PS3D(playFabId="...", token="...", device_id="...")
+
+print(player.get_profile(1))
+```
+
+Follow Player by ID
+```python
+from apis import PS3D
+
+# Fill in your information accordingly:
+player = PS3D(playFabId="...", token="...", device_id="...")
+
+print(player.follow(1))
+```
+
+Unfollow Player by ID
+```python
+from apis import PS3D
+
+# Fill in your information accordingly:
+player = PS3D(playFabId="...", token="...", device_id="...")
+
+print(player.unfollow(1))
+```
+
+Display Currency
+```python
+from apis import PS3D
+
+# Fill in your information accordingly:
+player = PS3D(playFabId="...", token="...", device_id="...")
+
+print(player.get_currency())
+```
