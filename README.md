@@ -6,4 +6,4 @@
 
 [![Copyright info](title_copyright.png)](#)
 
-All assets files belong to Pixel Strike 3D
+# All asset files belong to Pixel Strike 3D
