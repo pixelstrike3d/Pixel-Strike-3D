@@ -6,4 +6,4 @@
 
 [![Copyright info](title_copyright.png)](#)
 
-All assets files belongs to Cubic Games
+All assets files belong to Pixel Strike 3D
