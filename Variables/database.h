@@ -2,7 +2,7 @@
 #include <string>
 using namespace std;
 
-int main() {
+int version() {
   string database = "http://pixelstrike3daws.com";
   
   if (database == "http://pixelstrike3daws.com")
