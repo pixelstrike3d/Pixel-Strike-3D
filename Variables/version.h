@@ -2,7 +2,7 @@
 #include <string>
 using namespace std;
 
-int main() {
+int versionMain() {
   int majorVersion = 1;
   int minorVersion = 6;
   
