@@ -2,6 +2,24 @@
 #include "../Variables/version.h"
 #include "../Variables/database.h"
 
+#include <pthread.h>
+#include <jni.h>
+#include <memory.h>
+#include <dlfcn.h>
+#include <cstdio>
+#include <cstdlib>
+
+#include "Includes/Logger.h"
+#include "Patching/Patch.h"
+#import "Includes/Utils.h"
+#include "Includes/Offsets.h"
+
+#if defined(__armv7__)
+#include "X64Hook/And64InlineHook.hpp"
+#else
+#include "Substrate/CydiaSubstrate.h"
+#endif
+
 #include <iostream>
 #include <string>
 using namespace std;
