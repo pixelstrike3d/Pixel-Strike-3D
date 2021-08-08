@@ -1,4 +1,6 @@
 #include <windows.h>
+#include "version.h"
+#include "database.h"
 
 const char g_szClassName[] = "myWindowClass";
 
