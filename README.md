@@ -13,6 +13,8 @@
 
 It is in this repository, just look and you'll find that it's in C++
 
+# Original APIs.py Repository https://github.com/TonicBoomerKewl/pixel-strike-3d-api
+Originally Made By TonicBoomerKewl
 
 # API Examples
 Fetch Leaderboards
